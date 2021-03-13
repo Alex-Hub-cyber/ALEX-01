@@ -29,81 +29,98 @@ namespace ALEX0_1
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.LblUSER = new System.Windows.Forms.Label();
             this.TxtUser = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.LblPASSWORDD = new System.Windows.Forms.Label();
             this.TxtPass = new System.Windows.Forms.TextBox();
             this.BtnEnter = new System.Windows.Forms.Button();
             this.BtnCancel = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // LblUSER
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(45, 38);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(37, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "USER";
+            this.LblUSER.AutoSize = true;
+            this.LblUSER.BackColor = System.Drawing.SystemColors.Control;
+            this.LblUSER.Font = new System.Drawing.Font("Arial Narrow", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblUSER.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.LblUSER.Location = new System.Drawing.Point(60, 47);
+            this.LblUSER.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblUSER.Name = "LblUSER";
+            this.LblUSER.Size = new System.Drawing.Size(38, 16);
+            this.LblUSER.TabIndex = 0;
+            this.LblUSER.Text = "USER";
             // 
             // TxtUser
             // 
-            this.TxtUser.Location = new System.Drawing.Point(48, 76);
+            this.TxtUser.Location = new System.Drawing.Point(64, 94);
+            this.TxtUser.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TxtUser.Name = "TxtUser";
-            this.TxtUser.Size = new System.Drawing.Size(184, 20);
+            this.TxtUser.Size = new System.Drawing.Size(244, 22);
             this.TxtUser.TabIndex = 1;
             // 
-            // label2
+            // LblPASSWORDD
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(45, 133);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(70, 13);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "PASSWORD";
+            this.LblPASSWORDD.AutoSize = true;
+            this.LblPASSWORDD.BackColor = System.Drawing.SystemColors.Control;
+            this.LblPASSWORDD.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblPASSWORDD.Location = new System.Drawing.Point(60, 164);
+            this.LblPASSWORDD.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblPASSWORDD.Name = "LblPASSWORDD";
+            this.LblPASSWORDD.Size = new System.Drawing.Size(73, 16);
+            this.LblPASSWORDD.TabIndex = 2;
+            this.LblPASSWORDD.Text = "PASSWORD";
             // 
             // TxtPass
             // 
-            this.TxtPass.Location = new System.Drawing.Point(48, 166);
+            this.TxtPass.Location = new System.Drawing.Point(64, 204);
+            this.TxtPass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TxtPass.Name = "TxtPass";
             this.TxtPass.PasswordChar = '#';
-            this.TxtPass.Size = new System.Drawing.Size(184, 20);
+            this.TxtPass.Size = new System.Drawing.Size(244, 22);
             this.TxtPass.TabIndex = 3;
             // 
             // BtnEnter
             // 
-            this.BtnEnter.Location = new System.Drawing.Point(48, 228);
+            this.BtnEnter.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.BtnEnter.Location = new System.Drawing.Point(64, 281);
+            this.BtnEnter.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnEnter.Name = "BtnEnter";
-            this.BtnEnter.Size = new System.Drawing.Size(75, 23);
+            this.BtnEnter.Size = new System.Drawing.Size(100, 28);
             this.BtnEnter.TabIndex = 4;
             this.BtnEnter.Text = "ENTER";
-            this.BtnEnter.UseVisualStyleBackColor = true;
+            this.BtnEnter.UseVisualStyleBackColor = false;
             this.BtnEnter.Click += new System.EventHandler(this.BtnEnter_Click);
             // 
             // BtnCancel
             // 
+            this.BtnCancel.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.BtnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.BtnCancel.Location = new System.Drawing.Point(157, 228);
+            this.BtnCancel.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.BtnCancel.Location = new System.Drawing.Point(209, 281);
+            this.BtnCancel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnCancel.Name = "BtnCancel";
-            this.BtnCancel.Size = new System.Drawing.Size(75, 23);
+            this.BtnCancel.Size = new System.Drawing.Size(100, 28);
             this.BtnCancel.TabIndex = 5;
             this.BtnCancel.Text = "CANCEL";
-            this.BtnCancel.UseVisualStyleBackColor = true;
+            this.BtnCancel.UseVisualStyleBackColor = false;
             this.BtnCancel.Click += new System.EventHandler(this.BtnCancel_Click);
             // 
             // FrmLoguin
             // 
             this.AcceptButton = this.BtnEnter;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.CancelButton = this.BtnCancel;
-            this.ClientSize = new System.Drawing.Size(297, 330);
+            this.ClientSize = new System.Drawing.Size(372, 347);
             this.Controls.Add(this.BtnCancel);
             this.Controls.Add(this.BtnEnter);
             this.Controls.Add(this.TxtPass);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.LblPASSWORDD);
             this.Controls.Add(this.TxtUser);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.LblUSER);
+            this.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FrmLoguin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Loguin";
@@ -115,9 +132,9 @@ namespace ALEX0_1
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label LblUSER;
         private System.Windows.Forms.TextBox TxtUser;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label LblPASSWORDD;
         private System.Windows.Forms.TextBox TxtPass;
         private System.Windows.Forms.Button BtnEnter;
         private System.Windows.Forms.Button BtnCancel;

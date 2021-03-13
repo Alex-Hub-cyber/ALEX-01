@@ -33,6 +33,7 @@ namespace ALEX0_1
                 MessageBox.Show("WELCOME");
 
                 FrmMenu frm = new FrmMenu();
+                frm.UsuarioEstado = TxtUser.Text;
                 frm.Show();
                 this.Hide();
             }

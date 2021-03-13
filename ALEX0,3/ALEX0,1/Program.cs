@@ -17,7 +17,7 @@ namespace ALEX0_1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmUsuarios());
+            Application.Run(new FrmLoguin());
         }
     }
 }
