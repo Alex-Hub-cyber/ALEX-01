@@ -35,9 +35,10 @@ namespace ALEX0_1.VISTA
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(164, 70);
+            this.label1.Font = new System.Drawing.Font("Snap ITC", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(24, 109);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(319, 13);
+            this.label1.Size = new System.Drawing.Size(750, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "SOMOS UNA EMPRESA DE DESARROLLO DE APLICACIONES";
             // 
@@ -45,8 +46,11 @@ namespace ALEX0_1.VISTA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label1);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Name = "FrmAcercade";
             this.Text = "Acera de ";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
